@@ -154,9 +154,10 @@ int main()
     cout << p1 << " will play first \n";
     cout << p2 << " will play second \n";
 
+    printBoard();
+
     while (!checkIfWin())
     {
-        printBoard();
         positions();
         checkIfWin();
     }
